@@ -1,0 +1,15 @@
+
+.row1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left: 20%;
+}
+
+.back img{
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+
