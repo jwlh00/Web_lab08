@@ -1,12 +1,11 @@
-import React from "react";
-import "./background.css"
-import background_img from "./public/background.png"
+import React from 'react';
+import { PureComponent } from 'react/cjs/react.production.min';
+import './background.css';
 
-
-class Background extends React.Component{
-    render(){
-        return <div className="bg"></div>
-    }
+class Background extends PureComponent {
+  render() {
+    return <div className="bg" />;
+  }
 }
 
 export default Background;
